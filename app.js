@@ -97,7 +97,7 @@ async function init() {
 
 		await generate()
 
-		console.log('\nСгенерированные файлы находятся в папке', 'output'.green, ' \n')
+		console.log('\nСгенерированные файлы находятся в папке', 'output'.red, ' \n')
 		console.log('\nПоложите', 'скомпилированный код'.yellow, 'в папку ', 'output/Приложение/Релиз'.red, ' \n', 'Исходный код'.yellow, 'положите в папку', 'output/Приложение/Исходный код'.red, '\n')
 
 		return true
@@ -139,7 +139,7 @@ async function generate() {
 
 async function createpdf(name, pages) {
 	if(!pages.length) return false
-		
+
 	try {
 		const pdf = new HummusRecipe('new', name)
 
