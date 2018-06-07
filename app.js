@@ -139,6 +139,7 @@ async function generate() {
 
 async function createpdf(name, pages) {
 	if(!pages.length) return false
+	if(!pages[0]) return false
 
 	try {
 		const pdf = new HummusRecipe('new', name)
