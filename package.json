@@ -1,0 +1,24 @@
+{
+  "name": "coursework-converter",
+  "version": "1.0.0",
+  "description": "PDF course work converter for mirea students",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feed4rz/coursework-converter.git"
+  },
+  "author": "feed4rz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feed4rz/coursework-converter/issues"
+  },
+  "homepage": "https://github.com/feed4rz/coursework-converter#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "fs": "0.0.1-security",
+    "hummus-recipe": "^1.7.2"
+  }
+}
